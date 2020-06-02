@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Car World 🚘🌎!</a>
+          Welcome to <Link href='/home'><a>Car World 🚘🌎!</a></Link>
         </h1>
 
         <p className="description">
